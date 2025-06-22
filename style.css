@@ -1,0 +1,873 @@
+.main{
+background-image: url(https://echofyy.netlify.app/images/banner-bg.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+}
+*{
+    margin: 0px auto;
+}
+.navone{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    
+}
+.envatoimg{
+    /* background-color: aqua; */
+    width: 20vmin;
+    height: 7vmin;
+
+}
+.envoicon{
+    /* flex-grow: 1; */
+    /* background-color: bisque; */
+    padding-left: 3%;
+    padding-top: 1%;
+}
+.market{
+    /* background-color: blueviolet; */
+        flex-grow: 2;
+    padding-top: 2%;
+    color: white;
+}
+ .buybutton{
+    padding-top: 1%;
+    padding-right: 2%;
+    width: 10%;
+ }   
+ .buy{
+    background-color: #7aa93c;
+        border-radius: 10px;
+    color: white;
+    height: 5vh;
+    width: 100%;
+ } 
+ /* _________________nav one css complete_________________________________ */
+ .navtwo{
+    /* background-color: #7aa93c; */
+    width: 100%;
+    height: 7vh;
+
+ }
+ .list{
+    padding-top: 1%;
+     display: flex;
+    padding-left: 80%;
+    color: white;
+ }
+ .banner {
+  background: url('your-background.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s ease;
+}
+.banner-content.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+/* ____________________nav three start */
+.navthree{
+    display: flex;
+    margin-right: 4%;
+        margin-left: 4%;
+        margin-top: 2%;
+            position: fixed;
+/* background-color: aquamarine; */
+width: 100%;
+
+}
+
+.iconlistimage{
+    /* background-color: blue; */
+    width: 100%;
+min-height: auto;
+    
+}
+.iconlistimg{
+    width: 7vmin;
+    height: 10cqmin;
+     /* background-color: brown;    */
+        margin-top: 2%;
+
+}
+.banner {
+    padding-right: 60%;
+  /* background-color: aquamarine; */
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bannercontent {
+  text-align: start;
+  color: white;
+  opacity: 1;
+  transform: translate(100px);
+  transition: all 1s ease;
+}
+.bannercontent.show{
+    
+    transform: translate(0);
+}
+h1{
+        color: #7aa93c;
+
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.bubble{
+        font-size: 50px;
+    margin-bottom: 20px;
+
+}
+p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.butone{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #7aa93c;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.buttwo{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #7aa93c;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 70%;
+}
+.marqueee{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #7aa93c;
+    
+}
+.animal{
+    color: white;
+        padding-bottom: 1%;
+
+}
+.environ{
+    color: white;
+}
+.ocean{
+    color: white;
+}
+.maintwo{
+    background-image: url(https://echofyy.netlify.app/images/about-bg.jpg);
+    background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+height: 100%;
+width: 100%;
+
+}
+ .maintext{
+    height: 100vh;
+    /* background-color: #7aa93c; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    flex-wrap: wrap;
+ }
+ .greencontent{
+    color:#7aa93c;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+ }
+.carimg{
+    max-width: 150%;
+    height: auto;
+    padding-top: 15%;
+    margin-right: 10%;
+}
+.sustain{
+    font-size: 28px;
+    margin-bottom: 30px;
+        font-family: "Albert Sans", sans-serif;
+
+}
+.leaving{
+    margin-left: 20%;
+}
+.bit{
+    background-color: #7aa93c;
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    height: 7vh;
+    border-radius: 25%;
+}
+.bit:hover{
+    background-color:rgba(0, 128, 0, 0.438);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.effect{
+    padding-left: 10%;
+    transition: 0.5s;
+}
+.butimage{
+    position: absolute;
+    top: 1450px;
+    /* background-color: blue; */
+    margin-right: 70%;
+}
+.mainthree{
+    background-image: url(https://echofyy.netlify.app/images/service-bg.jpg);
+        background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+height: 100%;
+width: 100%;
+/* background-color: aqua; */
+}
+
+.greentext{
+   color:#7aa93c;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    justify-content: start;
+    width: 100%;
+    padding-left: 17%;
+        font-weight: 500;
+        font-family: "Albert Sans", sans-serif;
+        align-items: center;
+
+}
+.live{
+    /* background-color: bisque; */
+    padding-top: 1%;
+    padding-right: 10%;
+}
+.context{
+    color: black;
+    padding-left: 15%;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: Albert Sans, sans-serif;
+    padding-bottom: 2.25rem;
+
+}
+ .gray1{
+    width: 5%;
+    background-color: #7aa93c;
+    border-radius: 50px;
+    height: 20px;
+    margin-left: 80%;
+
+}
+.gray1:hover{
+    background-color: white;
+    cursor: pointer;
+        transition: 0.3s;
+
+}
+ .gray2{
+    width: 5%;
+    background-color: rgb(235 248 230);
+    border-radius: 10px;
+    height: 20px;
+}
+.gray2:hover{
+    background-color:#7aa93c;
+    cursor: pointer;
+        transition: 0.3s;
+}
+.levelimages{
+    display: flex;
+    margin-top: 5%;
+}
+.level1{
+    background-color: rgb(235 248 230);
+    width: 35%;
+    height: 60vh;
+    margin-left: 10%;
+    border-radius: 10px;
+    
+}
+.level1:hover{
+background-color:rgba(0, 0, 0, 0.711) ;
+}
+.level2:hover{
+background-color:rgba(0, 0, 0, 0.711) ;
+}
+.level3:hover{
+background-color:rgba(0, 0, 0, 0.711) ;
+}
+
+.labelimg1{
+    justify-content: center;
+    align-items: center;
+}
+.labelimage-1{
+    max-width: 90%;
+    max-height: 100%;
+        padding-top: 10%;
+        padding-left: 3%;
+}
+.lon{
+    padding-top: 10%;
+}
+.tree{
+    padding-top: 5%;
+    color: black;
+    padding-left: 2%;
+}
+.level2{
+    background-color: rgb(235 248 230);
+    width: 35%;
+    height: 60vh;
+    margin-right: 10%;
+    border-radius: 10px;
+    margin-left: 10%;
+    
+}
+.labelimg2{
+    justify-content: center;
+    align-items: center;
+}
+.labelimage-2{
+    max-width: 90%;
+    max-height: 100%;
+        padding-top: 10%;
+        padding-left: 3%;
+}
+.lon2{
+    padding-top: 10%;
+}
+.tree2{
+    padding-top: 5%;
+    color: black;
+    padding-left: 2%;
+}
+.level3{
+    background-color: rgb(235 248 230);
+    width: 35%;
+    height: 60vh;
+    margin-right: 10%;
+    border-radius: 10px;
+    
+}
+.labelimg3{
+    justify-content: center;
+    align-items: center;
+}
+.labelimage-3{
+    max-width: 90%;
+    max-height: 100%;
+        padding-top: 10%;
+        padding-left: 3%;
+}
+.lon3{
+    padding-top: 10%;
+}
+.tree3{
+    padding-top: 5%;
+    color: black;
+    padding-left: 5%;
+}
+.mainfour{
+    background-image: url(https://echofyy.netlify.app/images/skill-main-shape.png);
+        background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+height: 100%;
+width: 100%;
+/* background-color: aqua; */
+}
+.flex1{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.class1{
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+.getty{
+    font-size: 44px;
+    font-family: Albert Sans, sans-serif;
+    color: black;
+}
+.safty{
+    width: 45%;
+    height: 7vh;
+    background-color: white;
+}
+.dirty{
+    width: 45%;
+    height: 7vh;
+    margin-left: 3%;
+    background-color: white;
+}
+.safty:hover{
+    background-color: #7aa93c;
+    cursor: pointer;
+}
+.dirty:hover{
+    background-color: #7aa93c;
+    cursor: pointer;
+}
+.skillit{
+    color: #7aa93c;
+}
+/* _____________main five start________________ */
+.mainfive{
+    background-image: url(https://echofyy.netlify.app/images/about-bg.jpg);
+        background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+height: 100%;
+width: 100%;
+margin-top: 5%;
+/* background-color: aqua; */
+}
+.five2{
+    background-image: url(https://echofyy.netlify.app/images/counter-bg.png);
+        background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+height: 50%;
+width: 100%;
+margin-top: 5%;
+}
+.medals{
+    display: flex;
+justify-content: space-around;
+align-content: space-around;
+/* background-color: aqua; */
+
+}
+.people{
+    padding-top: 7%;
+    /* background-color: blue; */
+    width:10%;
+    /* padding-left: 20%; */
+}
+.right{
+    /* padding-left: 15%; */
+    padding-top: 7%;
+        width:10%;
+
+}
+.medal{
+    /* padding-left: 10%; */
+    padding-top: 7%;
+        width:10%;
+
+}
+.star{
+    /* padding-left: 10%; */
+    padding-top: 7%;
+        width:10%;
+
+}
+.medaltext{
+    display: flex;
+justify-content: space-around;
+align-content: space-around;
+    font-weight: 700;
+    font-size: 46px;
+    font-family: "Albert Sans", sans-serif;
+    color: white;
+}
+.class2{
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+.service{
+    color: #7aa93c;
+        font-weight: 500;
+    font-family: Albert Sans, sans-serif;
+    gap: .5rem;
+}
+.late{
+            font-size: 44px;
+    font-weight: 700;
+margin-top: 1.25rem;
+margin-bottom: .75rem;
+color: black;
+    font-family: Albert Sans, sans-serif;
+}
+.coding{
+    display: flex;
+}
+.carding1{
+position: relative;
+width: 300px;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba (0,0,0,0,0.2);
+cursor: pointer;
+}
+.carding1 img{
+    width: 100%;
+}
+.cardtext1{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 128, 0, 0.85);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    transform: translateY(100%);
+    transition: transform;
+}
+.carding1:hover .cardtext1{
+    transform: translateY(0);
+}
+.cardtext1 p{
+    margin: 0;
+    font-size: 14px;
+}
+.cardtext1 h2{
+    margin: 0;
+    font-size: 18px;
+}
+.cardtext1 a{
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.carding2{
+position: relative;
+width: 300px;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba (0,0,0,0,0.2);
+cursor: pointer;
+}
+.carding2 img{
+    width: 100%;
+}
+.cardtext2{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 128, 0, 0.85);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    transform: translateY(100%);
+    transition: transform;
+}
+.carding2:hover .cardtext2{
+    transform: translateY(0);
+}
+.cardtext2 p{
+    margin: 0;
+    font-size: 14px;
+}
+.cardtext2 h2{
+    margin: 0;
+    font-size: 18px;
+}
+.cardtext2 a{
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+}
+/* _____________________six start_____________ */
+.flex2{
+    /* display: flex; */
+    margin-top: 10%;
+}
+.flex2 h3{
+    padding-left: 45%;
+    padding-bottom: 2%;
+        font-weight: 500;
+        font-family: Albert Sans, sans-serif;
+        gap: .5rem;
+        color: #7aa93c;
+}
+.flex2 h1{
+    padding-left: 30%;
+            line-height: 54px;
+            font-size: 44px;
+        font-weight: 700;
+        font-family: Albert Sans, sans-serif;
+        color: black;
+
+}
+    .ecoicon {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 2px dashed #6fbf4b;
+    }
+
+    .ecoicon::before {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      top: 25px;
+      left: 25px;
+      border-radius: 50%;
+      border: 3px solid #8bc34a;
+      border-top-color: transparent;
+      border-left-color: transparent;
+      transform: rotate(45deg);
+    }
+
+    .arrow {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      width: 40px;
+    }
+
+    .global {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 40px;
+      transform: translate(-50%, -50%);
+    }
+    .main-six{
+        padding-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .drive1 h5{
+            font-weight: 600;
+                font-size: 1.5rem;
+            line-height: 2rem;
+                font-family: Albert Sans, sans-serif;
+            margin-top: 2.25rem;
+            margin-bottom: 1rem;
+    }
+    .flex3{
+      padding-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;  
+    }
+    .drive1 p{
+        width: 100%;
+            font-family: Albert Sans, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .drive2 h5{
+    font-weight: 600;
+      font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: Albert Sans, sans-serif;
+     margin-top: 2.25rem;
+    margin-bottom: 1rem;
+    }
+    .drive2 p{
+        width: 100%;
+            font-family: Albert Sans, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .drive3 p{
+        width: 100%;
+            font-family: Albert Sans, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .drive3 h5{
+    font-weight: 600;
+      font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: Albert Sans, sans-serif;
+     margin-top: 2.25rem;
+    margin-bottom: 1rem;
+    }
+.mainseven{
+    background-image: url(https://echofyy.netlify.app/images/skill-main-shape.png);
+        background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+height: 100%;
+width: 100%;
+/* background-color: aqua; */
+}
+.backseven{
+        background-color: #70bf4b5e;
+}
+.flex4{
+    display: flex;
+    margin-top: 5%;
+}
+.blaner{
+    width: 40%;
+    height: 40%;
+    background-color:white;
+    border-radius: 10px;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.staring{
+    width: 10%;
+    height: auto;
+    padding-bottom: 3%;
+}
+.anjalina{
+    padding-left: 70%;
+}
+.blaner:hover{
+    background-color: #7aa93c;
+}
+.flexeight{
+display: flex;
+}
+.backone{
+    background-color:#7aa93c;
+    width: 60%;
+    height: 25vh;
+    margin-top: 5%;
+    
+}
+.backone p{
+padding-left: 10%;
+    padding-top: 5%;
+    color: white;
+}
+.liv{
+    float: right;
+    padding-right: 15%;
+}
+.mark1{
+        background-color: #7aa93c38;
+        /* background-color: aqua; */
+        width: 20%;
+        height: 50vh;
+            /* margin-top: 10%; */
+
+
+}
+.mark1 img{
+    padding-left: 2%;
+}
+.mark1 p{
+    color:#7aa93c;
+    padding-left: 5%;
+}
+.mark1 h2{
+    padding-left: 5%;
+}
+.blogg{
+    margin-left: 70%;
+    width: 10%;
+    height: 7vh;
+    border-radius: 10px;
+    color: white;
+    background-color: #6fbf4b;
+}
+.mainine{
+    background-image: url(https://timely-flan-66fc51.netlify.app/images/footer-bg.jpg);
+background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+height: 100%;
+width: 100%;
+background-color: aqua;
+}
+.ecoofy{
+    padding-top: 4%;
+    color: white;
+}
+.mainfoot{
+    padding-top: 3%;
+    background-color: #7aa93c;
+    width: 50%;
+    height: 15vh;
+    /* padding-left: 3%; */
+    display: flex;
+    justify-content: space-between;
+}
+.mainfoot h1{
+    color: white;
+    font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+.mainfoot h2{
+    color: white;
+}
+.lisst{
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.company{
+    padding-top: 4%;
+    color: white;
+}
+.quick{
+    padding-top: 4%;
+    color: white;
+}
+.news{
+        padding-top: 4%;
+    color: white;
+}
+.butto{
+    border-radius: 10px;
+        width: 70%;
+        height: 5vh;
+
+}
+.butto2{
+    margin-top: 10%;
+    background-color: #7aa93c;
+    border-radius: 10px;
+    width: 50%;
+            height: 5vh;
+
+}
+.footpara{
+    padding-top: 4%;
+    display: flex;
+    color: white;
+}
